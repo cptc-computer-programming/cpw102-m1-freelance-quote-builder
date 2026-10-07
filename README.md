@@ -177,4 +177,4 @@ Do not begin writing Python code yet.
 
 Use CS50P Week 0: functions and variables. Practice input, numeric conversion, arithmetic, formatted output, `.strip()`, `.title()`, multiple parameters, return values, local scope, and a `main()` function that organizes the interaction. Use pseudocode and readable code to explain your approach.
 
-Assume valid, nonnegative numeric input. This lab does not require conditionals, loops, exception handling, libraries, file storage, or automated tests. Document invalid-input behavior as a limitation.
+See the problem statement for the input assumptions and limits of this lab.

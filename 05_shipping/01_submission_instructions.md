@@ -25,9 +25,7 @@ Open a pull request from `development` into `main` in your own repository.
 5. Give the pull request a title identifying Freelance Quote Builder.
 6. In the description, briefly explain:
    - What you completed
-   - How your functions use parameters, return values, and output
-   - The results of your manual testing
-   - Any known issues or incomplete work, including the invalid-input limitation
+   - Any known issues or incomplete work
 7. Submit the pull request and leave it open for review.
 
 ## 3. Submit the Pull Request in Canvas

@@ -1,35 +1,23 @@
 # Product Requirements
 
-**Project:** Freelance Quote Builder
-
 **Team members:**
 
-**Date:**
+Translate the designer's description into requirements. Keep answers brief.
 
-## User and problem
+## User and goal
 
-Who is the user?
+**Who will use this program?**
 
-What problem does the user have?
-
-## Goal
-
-Our program will help the user:
+**What problem will it help them solve?**
 
 ## Requirements
 
-Write the things the program must do in your own words. Include all business rules from the problem statement. Make each requirement specific enough to test. Add numbered items as needed.
+Write each requirement as “The program must…” in your own words. Cover the inputs, calculations, name cleanup, and displayed estimate. Make each statement specific enough to check. Add numbered items as needed.
 
 1. The program must
 2. The program must
 3. The program must
 
-## Not included
-
-What will this version **not** do? Document the assumption about valid, nonnegative numeric values and what could happen with invalid numeric input.
-
--
-
 ## Success
 
-We will know the product works when:
+**What should the user be able to do when the program works?**

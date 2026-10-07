@@ -1,131 +1,53 @@
 # Test Cases
 
-Choose and record your own inputs for each case. Use valid, nonnegative numeric values. **Calculate and record expected labor cost and total estimate before running your program.** Also describe the expected text cleanup, required quote fields, estimate label, and monetary formatting.
+Run both cases separately. Calculate expected labor cost and total before each run.
 
-Run the program separately for each case. From the repository folder, you can use:
+From the repository folder, run:
 
 ```text
 python 03_execution/freelance_quote_builder.py
 ```
 
-Record the actual output and mark each case Pass or Fail. If a case fails, describe the issue, revise your program, and record the result of running the case again. These are manual tests; automated tests are not required.
+For each case, paste the terminal input and output as evidence. Mark Pass or Fail and briefly explain why. A passing run has correct amounts, a cleaned client name, the `PROJECT ESTIMATE` heading, labeled costs, and dollars with two decimal places.
 
-## Test Case 1: Ordinary Values
+## Case 1: Ordinary values
 
-**Input / Action:**
+Enter:
 
-Choose ordinary whole-number hours, a positive hourly rate, and positive direct expenses.
+- Client name: `Alex Taylor`
+- Estimated hours: `4`
+- Hourly rate: `30`
+- Direct expenses: `15`
 
-- Client name:
-- Project title:
-- Estimated work hours:
-- Hourly rate:
-- Direct expenses:
+**Expected labor cost and total:**
 
-**Expected Result:**
+**Evidence (paste your terminal run):**
 
-- Labor cost (show your calculation):
-- Total estimate (show your calculation):
-- Expected text and display:
+```text
 
-**Actual Result:**
+```
 
-_To be completed during testing._
+**Pass / Fail and why:**
 
-**Result:**
+## Case 2: Partial hours and text cleanup
 
-Pass / Fail:
+Enter:
 
----
+- Client name: `  aLEX tAYLOR  ` (include two spaces before and after the name)
+- Estimated hours: `2.5`
+- Hourly rate: `30`
+- Direct expenses: `0`
 
-## Test Case 2: Partial Hours
+The displayed name should be `Alex Taylor` without surrounding spaces.
 
-**Input / Action:**
+**Expected labor cost and total:**
 
-Choose hours with a fractional part to check that the program preserves partial hours in the calculation.
+**Evidence (paste your terminal run):**
 
-- Client name:
-- Project title:
-- Estimated work hours:
-- Hourly rate:
-- Direct expenses:
+```text
 
-**Expected Result:**
+```
 
-- Labor cost (show your calculation):
-- Total estimate (show your calculation):
-- Expected text and display:
+**Pass / Fail and why:**
 
-**Actual Result:**
-
-_To be completed during testing._
-
-**Result:**
-
-Pass / Fail:
-
----
-
-## Test Case 3: Zero Direct Expenses
-
-**Input / Action:**
-
-Enter zero direct expenses with positive hours and an hourly rate.
-
-- Client name:
-- Project title:
-- Estimated work hours:
-- Hourly rate:
-- Direct expenses:
-
-**Expected Result:**
-
-- Labor cost (show your calculation):
-- Total estimate (show your calculation):
-- Expected text and display:
-
-**Actual Result:**
-
-_To be completed during testing._
-
-**Result:**
-
-Pass / Fail:
-
----
-
-## Test Case 4: Text Cleanup and Capitalization
-
-**Input / Action:**
-
-Enter both text inputs with surrounding spaces. Use inconsistent capitalization in the client name and deliberate capitalization in the project title. Put quotation marks around your recorded text inputs to make spaces visible; do not type those quotation marks into the program.
-
-- Client name:
-- Project title:
-- Estimated work hours:
-- Hourly rate:
-- Direct expenses:
-
-**Expected Result:**
-
-- Labor cost (show your calculation):
-- Total estimate (show your calculation):
-- Client name after cleanup:
-- Project title after cleanup:
-- Expected estimate label, fields, and monetary formatting:
-
-**Actual Result:**
-
-_To be completed during testing._
-
-**Result:**
-
-Pass / Fail:
-
----
-
-## Testing Summary
-
-What problems did you find, and what did you change? Record any retest results here.
-
-What limitations remain? Include invalid numeric input, which is outside this lab's required behavior and may cause a crash. You are not required to test invalid input or prevent that crash.
+If a case fails, fix the program and add evidence of the rerun below that case.
