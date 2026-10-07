@@ -175,6 +175,6 @@ Do not begin writing Python code yet.
 
 ## Learning Goals
 
-Use CS50P Week 0: functions and variables. Practice input, numeric conversion, arithmetic, formatted output, `.strip()`, `.title()`, multiple parameters, return values, local scope, and a `main()` function that organizes the interaction. Use pseudocode and readable code to explain your approach.
+Functions and variables. Practice input, numeric conversion, arithmetic, formatted output, `.strip()`, `.title()`, multiple parameters, return values, local scope, and a `main()` function that organizes the interaction. Use pseudocode and readable code to explain your approach.
 
 See the problem statement for the input assumptions and limits of this lab.
