@@ -27,10 +27,10 @@ The client input includes surrounding spaces. Your prompts and layout may differ
 
 ## Technical expectations
 
-Organize the program with `main()` and call it to start the interaction. Write at least one calculation function that accepts multiple parameters and returns a number. Keep variables local and pass information through parameters and return values. Use `.strip()` and `.title()` for the name cleanup. Choose readable names and write pseudocode before coding.
+Organize the program with `main()` and call it to start the interaction. Write at least one calculation function that accepts parameter(s) and returns a number. Use `.strip()` and `.title()` for the name cleanup. Choose readable variable names and use comments. 
 
 ## Assumptions
 
-Assume valid, nonnegative numeric input without dollar signs or commas. Expenses may be zero. Input validation is not required; invalid numeric input may cause a crash. Using `.title()` for names is a lab convention.
+Assume valid, nonnegative numeric input without dollar signs or commas. Expenses may be zero. Input validation is not required; invalid numeric input may cause a crash. 
 
 No conditionals, loops, exception handling, libraries, file storage, or automated tests should be used. 

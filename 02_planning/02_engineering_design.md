@@ -11,7 +11,7 @@ Plan how your code will meet the product requirements. Keep answers brief.
 
 ## Processing
 
-*What calculations, text clean up, numberic converstions, ext will the program perform on the inputs? *
+*What calculations, text clean up, numberic converstions, ext will the program perform on the inputs?*
 
 
 ```text
